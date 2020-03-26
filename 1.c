@@ -4,7 +4,7 @@
 #define N 3
 #define M 4
 main() {
-    int a[N][M], i, j, min = CHAR_MAX;;
+    int a[N][M], i, j, min = CHAR_MAX;
     srand(time(NULL));
     for (i=0; i<N; i++) {
         for (j=0; j<M; j++) {
