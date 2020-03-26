@@ -16,10 +16,10 @@ int main()
     }
 for (j = 0; j < N; j++){
         for (i = 0; i < M; i++){
-            if (A[i][j] % 2 != 0){
+            if (A[i][j] % 2 == 1){
                 k++;
             }
-        if (k == 5){
+        if (k == M){
                 printf("\n");
                 for(i = 0; i < M; i++)
                     printf("%d\n", A[i][j]);
